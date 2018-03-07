@@ -1,1 +1,72 @@
 /* Style your calculator */
+#calc-body{
+    font-size: 30px;
+    border: 1px solid grey;
+    background-color: gray;
+    font-family: Courier;
+    width: 300px;
+    height: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+#output { 
+    color: antiquewhite;
+    font-size: 75px;
+    text-align: right;
+    border: 2px solid black;
+    background-color: black;
+    font-family: Courier;
+    width: 296px;
+    height: 100px;
+    display: inline-block;
+    margin: 5px auto;
+    align-content: inherit;
+}
+
+/* #base-body{
+    border: 1px solid grey;
+    background-color: gray;
+    font-family: Courier;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+} */
+
+.numbers, #operator-add, #operator-subtract, #operator-multiply, #operator-divide{
+    display: inline-block;
+    font-size: 50px;
+    font-family: monospace;
+    width: 75px;
+    height: 75px;
+    border: 1px solid grey;
+    background-color: black;
+    color: antiquewhite;
+    vertical-align: top;
+    margin: 5px auto;
+    
+}
+#operator-equals {
+    border: 1px solid grey;
+    display: inline-block;
+    font-size: 50px;
+    font-family: monospace;
+    width: 75px;
+    height: 170px;
+    background-color: black;
+    color: antiquewhite;
+    vertical-align: top;
+    margin: 5px auto;
+}
+
+#clear{
+    display: block;
+    border: 1px solid grey;
+    font-size: 50px;
+    font-family: monospace;
+    width: 168px;
+    height: 75px;
+    background-color: black;
+    color: antiquewhite;
+    margin: -80px 90px 10px 20px;
+}
